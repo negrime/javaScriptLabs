@@ -7,7 +7,13 @@ a.onclick = function (e){
     count++;
     document.querySelector('p').textContent ="U clicked "  + count + " times";
     changeColor();
+ //   debugger;
+   /* if (count % 10 == 0) {
+        alert("Wow, you clicked  " + count + " times!");
+    }
+*/
 }
+
 
 
 let click = false;
